@@ -33,7 +33,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0060da22-51f0-416c-b3b7-295572ba908d" name="Default Changelist" comment="" />
+    <list default="true" id="0060da22-51f0-416c-b3b7-295572ba908d" name="Default Changelist" comment="start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +151,7 @@
       <updated>1546166873086</updated>
       <workItem from="1546166877251" duration="425000" />
       <workItem from="1546921748836" duration="102000" />
-      <workItem from="1546934981909" duration="760000" />
+      <workItem from="1546934981909" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1546940746229</created>
@@ -158,14 +160,29 @@
       <option name="project" value="LOCAL" />
       <updated>1546940746229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start">
+      <created>1546941520843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546941520843</updated>
+    </task>
+    <task id="LOCAL-00003" summary="start">
+      <created>1546941660666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546941660666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1287000" />
+    <option name="totallyTimeSpent" value="1576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13621922" />
