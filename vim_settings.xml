@@ -1,0 +1,78 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/CLionProjects/LIBFT/ft_treenew.c" timestamp="1546869331992">
+        <mark key="[" line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/LIBFT/ft_sort_alpha.c" timestamp="1546920802039">
+        <mark key="[" line="14" column="19" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1546940703092">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/LIBFT/libft.h" timestamp="1546917008186">
+        <mark key="[" line="90" column="4" />
+        <mark key="]" line="24" column="54" />
+        <mark key="." line="24" column="54" />
+        <mark key="^" line="24" column="54" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/LIBFT/ft_print_arr.c" timestamp="1546873382358">
+        <mark key="[" line="12" column="0" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/LIBFT/ft_realloc.c" timestamp="1546871765426">
+        <mark key="[" line="36" column="26" />
+        <mark key="]" line="36" column="8" />
+        <mark key="^" line="36" column="8" />
+        <mark key="." line="36" column="8" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/GNL/main.c" timestamp="1546167429507">
+        <mark key="[" line="3" column="5" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/LIBFT/ft_sort_digit.c" timestamp="1546920566633">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="^" line="36" column="20" />
+        <mark key="." line="33" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">CXByaW50ZigiXG4iKTsK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CXByaW50ZigiXG4iKTsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">CXByaW50ZigiXG4iKTsK</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+      <register name="-" type="4">
+        <text>;</text>
+      </register>
+    </registers>
+    <search>
+      <last-offset />
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts />
+    <editor>
+      <key-repeat enabled="false" />
+    </editor>
+  </component>
+</application>
