@@ -48,10 +48,10 @@ RM = /Users/pcorlys-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pcorlys-/CLionProjects/GNL
+CMAKE_SOURCE_DIR = /Users/pcorlys-/GNL/Clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pcorlys-/GNL/Clion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug/CMakeFiles /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles /Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ GNL/fast:
 	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/build
 .PHONY : GNL/fast
 
+get_next_line.o: get_next_line.c.o
+
+.PHONY : get_next_line.o
+
+# target to build an object file
+get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/get_next_line.c.o
+.PHONY : get_next_line.c.o
+
+get_next_line.i: get_next_line.c.i
+
+.PHONY : get_next_line.i
+
+# target to preprocess a source file
+get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/get_next_line.c.i
+.PHONY : get_next_line.c.i
+
+get_next_line.s: get_next_line.c.s
+
+.PHONY : get_next_line.s
+
+# target to generate assembly for a file
+get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/get_next_line.c.s
+.PHONY : get_next_line.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GNL"
+	@echo "... get_next_line.o"
+	@echo "... get_next_line.i"
+	@echo "... get_next_line.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

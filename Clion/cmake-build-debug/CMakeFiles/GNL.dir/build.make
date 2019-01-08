@@ -43,10 +43,10 @@ RM = /Users/pcorlys-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pcorlys-/CLionProjects/GNL
+CMAKE_SOURCE_DIR = /Users/pcorlys-/GNL/Clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pcorlys-/GNL/Clion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GNL.dir/depend.make
@@ -59,28 +59,43 @@ include CMakeFiles/GNL.dir/flags.make
 
 CMakeFiles/GNL.dir/main.c.o: CMakeFiles/GNL.dir/flags.make
 CMakeFiles/GNL.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/CLionProjects/GNL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GNL.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/main.c.o   -c /Users/pcorlys-/CLionProjects/GNL/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GNL.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/main.c.o   -c /Users/pcorlys-/GNL/Clion/main.c
 
 CMakeFiles/GNL.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/CLionProjects/GNL/main.c > CMakeFiles/GNL.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/main.c > CMakeFiles/GNL.dir/main.c.i
 
 CMakeFiles/GNL.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/CLionProjects/GNL/main.c -o CMakeFiles/GNL.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/main.c -o CMakeFiles/GNL.dir/main.c.s
+
+CMakeFiles/GNL.dir/get_next_line.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/get_next_line.c.o: ../get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GNL.dir/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/get_next_line.c.o   -c /Users/pcorlys-/GNL/Clion/get_next_line.c
+
+CMakeFiles/GNL.dir/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/get_next_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/get_next_line.c > CMakeFiles/GNL.dir/get_next_line.c.i
+
+CMakeFiles/GNL.dir/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/get_next_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/get_next_line.c -o CMakeFiles/GNL.dir/get_next_line.c.s
 
 # Object files for target GNL
 GNL_OBJECTS = \
-"CMakeFiles/GNL.dir/main.c.o"
+"CMakeFiles/GNL.dir/main.c.o" \
+"CMakeFiles/GNL.dir/get_next_line.c.o"
 
 # External object files for target GNL
 GNL_EXTERNAL_OBJECTS =
 
 GNL: CMakeFiles/GNL.dir/main.c.o
+GNL: CMakeFiles/GNL.dir/get_next_line.c.o
 GNL: CMakeFiles/GNL.dir/build.make
 GNL: CMakeFiles/GNL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pcorlys-/CLionProjects/GNL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable GNL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable GNL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GNL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +108,6 @@ CMakeFiles/GNL.dir/clean:
 .PHONY : CMakeFiles/GNL.dir/clean
 
 CMakeFiles/GNL.dir/depend:
-	cd /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pcorlys-/CLionProjects/GNL /Users/pcorlys-/CLionProjects/GNL /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug /Users/pcorlys-/CLionProjects/GNL/cmake-build-debug/CMakeFiles/GNL.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/pcorlys-/GNL/Clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pcorlys-/GNL/Clion /Users/pcorlys-/GNL/Clion /Users/pcorlys-/GNL/Clion/cmake-build-debug /Users/pcorlys-/GNL/Clion/cmake-build-debug /Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles/GNL.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GNL.dir/depend
 

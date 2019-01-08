@@ -3,4 +3,4 @@ project(GNL C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(GNL main.c)
+add_executable(GNL main.c get_next_line.c)
