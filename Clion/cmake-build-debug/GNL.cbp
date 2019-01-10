@@ -95,6 +95,9 @@
 		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strlen.c">
 			<Option target="GNL"/>
 		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strnjoin.c">
+			<Option target="GNL"/>
+		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/main.c">
 			<Option target="GNL"/>
 		</Unit>

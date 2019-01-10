@@ -8,6 +8,7 @@ int main()
 	char *res;
 	int cout;
 
+res = NULL;
 	cout = get_next_line(fd, &res);
 	printf("res=%d", cout);
 	return (0);

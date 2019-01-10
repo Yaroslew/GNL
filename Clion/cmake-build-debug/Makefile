@@ -231,6 +231,33 @@ libft/ft_strlen.c.s:
 	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strlen.c.s
 .PHONY : libft/ft_strlen.c.s
 
+libft/ft_strnjoin.o: libft/ft_strnjoin.c.o
+
+.PHONY : libft/ft_strnjoin.o
+
+# target to build an object file
+libft/ft_strnjoin.c.o:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strnjoin.c.o
+.PHONY : libft/ft_strnjoin.c.o
+
+libft/ft_strnjoin.i: libft/ft_strnjoin.c.i
+
+.PHONY : libft/ft_strnjoin.i
+
+# target to preprocess a source file
+libft/ft_strnjoin.c.i:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strnjoin.c.i
+.PHONY : libft/ft_strnjoin.c.i
+
+libft/ft_strnjoin.s: libft/ft_strnjoin.c.s
+
+.PHONY : libft/ft_strnjoin.s
+
+# target to generate assembly for a file
+libft/ft_strnjoin.c.s:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strnjoin.c.s
+.PHONY : libft/ft_strnjoin.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... libft/ft_strlen.o"
 	@echo "... libft/ft_strlen.i"
 	@echo "... libft/ft_strlen.s"
+	@echo "... libft/ft_strnjoin.o"
+	@echo "... libft/ft_strnjoin.i"
+	@echo "... libft/ft_strnjoin.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

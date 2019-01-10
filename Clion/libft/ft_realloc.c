@@ -12,22 +12,22 @@
 
 #include "libft.h"
 
-void		*ft_realloc(void *mem, size_t num)
+void		**ft_realloc(void **mem, size_t num)
 {
 	char	*temp;
 
 	if (num == 0)
 	{
-		free(mem);
-		mem = NULL;
+		free(*mem);
+		*mem = NULL;
 		return (NULL);
 	}
 	if (!(temp = malloc(num)))
 		return (NULL);
-	if (mem == NULL)
+	if (*mem == NULL)
 		return (temp);
-	temp = ft_memmove(temp, mem, num);
-	free(mem);
-	mem = NULL;
-	return (temp);
+	temp = ft_memmove(temp, *mem, num);
+	free(*mem);
+	*mem = NULL;
+	return (&temp);
 }
