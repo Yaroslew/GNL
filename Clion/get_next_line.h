@@ -17,14 +17,15 @@
 
 #include <stdlib.h>
 #include <unistd.h>
+#include "libft/libft.h"
 
-#define struct		s_list
+typedef struct			s_lst
 {
-	char			*str;
-	size_t			size;
-	int 			fd;
-	struct s_list	*next;
-} t_list;
+	char				*str;
+	size_t				size;
+	int 				file;
+	struct s_lst		*next;
+} 						t_lst;
 
 int get_next_line(const int fd, char **line);
 

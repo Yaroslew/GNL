@@ -83,6 +83,18 @@
 		<Unit filename="/Users/pcorlys-/GNL/Clion/get_next_line.c">
 			<Option target="GNL"/>
 		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/get_next_line.h">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_memmove.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_realloc.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strlen.c">
+			<Option target="GNL"/>
+		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/main.c">
 			<Option target="GNL"/>
 		</Unit>

@@ -150,6 +150,87 @@ get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/get_next_line.c.s
 .PHONY : get_next_line.c.s
 
+libft/ft_memmove.o: libft/ft_memmove.c.o
+
+.PHONY : libft/ft_memmove.o
+
+# target to build an object file
+libft/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_memmove.c.o
+.PHONY : libft/ft_memmove.c.o
+
+libft/ft_memmove.i: libft/ft_memmove.c.i
+
+.PHONY : libft/ft_memmove.i
+
+# target to preprocess a source file
+libft/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_memmove.c.i
+.PHONY : libft/ft_memmove.c.i
+
+libft/ft_memmove.s: libft/ft_memmove.c.s
+
+.PHONY : libft/ft_memmove.s
+
+# target to generate assembly for a file
+libft/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_memmove.c.s
+.PHONY : libft/ft_memmove.c.s
+
+libft/ft_realloc.o: libft/ft_realloc.c.o
+
+.PHONY : libft/ft_realloc.o
+
+# target to build an object file
+libft/ft_realloc.c.o:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_realloc.c.o
+.PHONY : libft/ft_realloc.c.o
+
+libft/ft_realloc.i: libft/ft_realloc.c.i
+
+.PHONY : libft/ft_realloc.i
+
+# target to preprocess a source file
+libft/ft_realloc.c.i:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_realloc.c.i
+.PHONY : libft/ft_realloc.c.i
+
+libft/ft_realloc.s: libft/ft_realloc.c.s
+
+.PHONY : libft/ft_realloc.s
+
+# target to generate assembly for a file
+libft/ft_realloc.c.s:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_realloc.c.s
+.PHONY : libft/ft_realloc.c.s
+
+libft/ft_strlen.o: libft/ft_strlen.c.o
+
+.PHONY : libft/ft_strlen.o
+
+# target to build an object file
+libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strlen.c.o
+.PHONY : libft/ft_strlen.c.o
+
+libft/ft_strlen.i: libft/ft_strlen.c.i
+
+.PHONY : libft/ft_strlen.i
+
+# target to preprocess a source file
+libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strlen.c.i
+.PHONY : libft/ft_strlen.c.i
+
+libft/ft_strlen.s: libft/ft_strlen.c.s
+
+.PHONY : libft/ft_strlen.s
+
+# target to generate assembly for a file
+libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/GNL.dir/build.make CMakeFiles/GNL.dir/libft/ft_strlen.c.s
+.PHONY : libft/ft_strlen.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -189,6 +270,15 @@ help:
 	@echo "... get_next_line.o"
 	@echo "... get_next_line.i"
 	@echo "... get_next_line.s"
+	@echo "... libft/ft_memmove.o"
+	@echo "... libft/ft_memmove.i"
+	@echo "... libft/ft_memmove.s"
+	@echo "... libft/ft_realloc.o"
+	@echo "... libft/ft_realloc.i"
+	@echo "... libft/ft_realloc.s"
+	@echo "... libft/ft_strlen.o"
+	@echo "... libft/ft_strlen.i"
+	@echo "... libft/ft_strlen.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
