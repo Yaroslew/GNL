@@ -17,6 +17,8 @@ char		*ft_strcpy(char *first, const char *second)
 	int		q;
 
 	q = 0;
+	if (second == NULL)
+		return (first);
 	while (second[q])
 	{
 		first[q] = second[q];

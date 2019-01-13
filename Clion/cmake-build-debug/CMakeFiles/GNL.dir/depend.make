@@ -5,14 +5,44 @@ CMakeFiles/GNL.dir/get_next_line.c.o: ../get_next_line.c
 CMakeFiles/GNL.dir/get_next_line.c.o: ../get_next_line.h
 CMakeFiles/GNL.dir/get_next_line.c.o: ../libft/libft.h
 
+CMakeFiles/GNL.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
+CMakeFiles/GNL.dir/libft/ft_bzero.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
+CMakeFiles/GNL.dir/libft/ft_memalloc.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
+CMakeFiles/GNL.dir/libft/ft_memdel.c.o: ../libft/libft.h
+
 CMakeFiles/GNL.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
 CMakeFiles/GNL.dir/libft/ft_memmove.c.o: ../libft/libft.h
 
 CMakeFiles/GNL.dir/libft/ft_realloc.c.o: ../libft/ft_realloc.c
 CMakeFiles/GNL.dir/libft/ft_realloc.c.o: ../libft/libft.h
 
+CMakeFiles/GNL.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
+CMakeFiles/GNL.dir/libft/ft_strcat.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
+CMakeFiles/GNL.dir/libft/ft_strcpy.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
+CMakeFiles/GNL.dir/libft/ft_strdel.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
+CMakeFiles/GNL.dir/libft/ft_strdup.c.o: ../libft/libft.h
+
 CMakeFiles/GNL.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
 CMakeFiles/GNL.dir/libft/ft_strlen.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
+CMakeFiles/GNL.dir/libft/ft_strncat.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_strnjoin.c.o: ../libft/ft_strnjoin.c
+CMakeFiles/GNL.dir/libft/ft_strnjoin.c.o: ../libft/libft.h
+
+CMakeFiles/GNL.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
+CMakeFiles/GNL.dir/libft/ft_strsub.c.o: ../libft/libft.h
 
 CMakeFiles/GNL.dir/main.c.o: ../get_next_line.h
 CMakeFiles/GNL.dir/main.c.o: ../libft/libft.h

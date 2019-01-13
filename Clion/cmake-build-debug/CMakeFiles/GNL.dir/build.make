@@ -135,6 +135,123 @@ CMakeFiles/GNL.dir/libft/ft_strnjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strnjoin.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strnjoin.c -o CMakeFiles/GNL.dir/libft/ft_strnjoin.c.s
 
+CMakeFiles/GNL.dir/libft/ft_memdel.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/GNL.dir/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_memdel.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_memdel.c
+
+CMakeFiles/GNL.dir/libft/ft_memdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_memdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_memdel.c > CMakeFiles/GNL.dir/libft/ft_memdel.c.i
+
+CMakeFiles/GNL.dir/libft/ft_memdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_memdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_memdel.c -o CMakeFiles/GNL.dir/libft/ft_memdel.c.s
+
+CMakeFiles/GNL.dir/libft/ft_strcat.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/GNL.dir/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_strcat.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_strcat.c
+
+CMakeFiles/GNL.dir/libft/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_strcat.c > CMakeFiles/GNL.dir/libft/ft_strcat.c.i
+
+CMakeFiles/GNL.dir/libft/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strcat.c -o CMakeFiles/GNL.dir/libft/ft_strcat.c.s
+
+CMakeFiles/GNL.dir/libft/ft_strcpy.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/GNL.dir/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_strcpy.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_strcpy.c
+
+CMakeFiles/GNL.dir/libft/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_strcpy.c > CMakeFiles/GNL.dir/libft/ft_strcpy.c.i
+
+CMakeFiles/GNL.dir/libft/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strcpy.c -o CMakeFiles/GNL.dir/libft/ft_strcpy.c.s
+
+CMakeFiles/GNL.dir/libft/ft_strncat.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GNL.dir/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_strncat.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_strncat.c
+
+CMakeFiles/GNL.dir/libft/ft_strncat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_strncat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_strncat.c > CMakeFiles/GNL.dir/libft/ft_strncat.c.i
+
+CMakeFiles/GNL.dir/libft/ft_strncat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strncat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strncat.c -o CMakeFiles/GNL.dir/libft/ft_strncat.c.s
+
+CMakeFiles/GNL.dir/libft/ft_memalloc.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GNL.dir/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_memalloc.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_memalloc.c
+
+CMakeFiles/GNL.dir/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_memalloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_memalloc.c > CMakeFiles/GNL.dir/libft/ft_memalloc.c.i
+
+CMakeFiles/GNL.dir/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_memalloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_memalloc.c -o CMakeFiles/GNL.dir/libft/ft_memalloc.c.s
+
+CMakeFiles/GNL.dir/libft/ft_bzero.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/GNL.dir/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_bzero.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_bzero.c
+
+CMakeFiles/GNL.dir/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_bzero.c > CMakeFiles/GNL.dir/libft/ft_bzero.c.i
+
+CMakeFiles/GNL.dir/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_bzero.c -o CMakeFiles/GNL.dir/libft/ft_bzero.c.s
+
+CMakeFiles/GNL.dir/libft/ft_strdel.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/GNL.dir/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_strdel.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_strdel.c
+
+CMakeFiles/GNL.dir/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_strdel.c > CMakeFiles/GNL.dir/libft/ft_strdel.c.i
+
+CMakeFiles/GNL.dir/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strdel.c -o CMakeFiles/GNL.dir/libft/ft_strdel.c.s
+
+CMakeFiles/GNL.dir/libft/ft_strdup.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/GNL.dir/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_strdup.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_strdup.c
+
+CMakeFiles/GNL.dir/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_strdup.c > CMakeFiles/GNL.dir/libft/ft_strdup.c.i
+
+CMakeFiles/GNL.dir/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strdup.c -o CMakeFiles/GNL.dir/libft/ft_strdup.c.s
+
+CMakeFiles/GNL.dir/libft/ft_strsub.c.o: CMakeFiles/GNL.dir/flags.make
+CMakeFiles/GNL.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/GNL.dir/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GNL.dir/libft/ft_strsub.c.o   -c /Users/pcorlys-/GNL/Clion/libft/ft_strsub.c
+
+CMakeFiles/GNL.dir/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GNL.dir/libft/ft_strsub.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pcorlys-/GNL/Clion/libft/ft_strsub.c > CMakeFiles/GNL.dir/libft/ft_strsub.c.i
+
+CMakeFiles/GNL.dir/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GNL.dir/libft/ft_strsub.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pcorlys-/GNL/Clion/libft/ft_strsub.c -o CMakeFiles/GNL.dir/libft/ft_strsub.c.s
+
 # Object files for target GNL
 GNL_OBJECTS = \
 "CMakeFiles/GNL.dir/main.c.o" \
@@ -142,7 +259,16 @@ GNL_OBJECTS = \
 "CMakeFiles/GNL.dir/libft/ft_realloc.c.o" \
 "CMakeFiles/GNL.dir/libft/ft_strlen.c.o" \
 "CMakeFiles/GNL.dir/libft/ft_memmove.c.o" \
-"CMakeFiles/GNL.dir/libft/ft_strnjoin.c.o"
+"CMakeFiles/GNL.dir/libft/ft_strnjoin.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_memdel.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_strcat.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_strcpy.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_strncat.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_memalloc.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_bzero.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_strdel.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_strdup.c.o" \
+"CMakeFiles/GNL.dir/libft/ft_strsub.c.o"
 
 # External object files for target GNL
 GNL_EXTERNAL_OBJECTS =
@@ -153,9 +279,18 @@ GNL: CMakeFiles/GNL.dir/libft/ft_realloc.c.o
 GNL: CMakeFiles/GNL.dir/libft/ft_strlen.c.o
 GNL: CMakeFiles/GNL.dir/libft/ft_memmove.c.o
 GNL: CMakeFiles/GNL.dir/libft/ft_strnjoin.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_memdel.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_strcat.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_strcpy.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_strncat.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_memalloc.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_bzero.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_strdel.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_strdup.c.o
+GNL: CMakeFiles/GNL.dir/libft/ft_strsub.c.o
 GNL: CMakeFiles/GNL.dir/build.make
 GNL: CMakeFiles/GNL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable GNL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pcorlys-/GNL/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable GNL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GNL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

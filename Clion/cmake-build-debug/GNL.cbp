@@ -86,16 +86,43 @@
 		<Unit filename="/Users/pcorlys-/GNL/Clion/get_next_line.h">
 			<Option target="GNL"/>
 		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_bzero.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_memalloc.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_memdel.c">
+			<Option target="GNL"/>
+		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_memmove.c">
 			<Option target="GNL"/>
 		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_realloc.c">
 			<Option target="GNL"/>
 		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strcat.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strcpy.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strdel.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strdup.c">
+			<Option target="GNL"/>
+		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strlen.c">
 			<Option target="GNL"/>
 		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strncat.c">
+			<Option target="GNL"/>
+		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strnjoin.c">
+			<Option target="GNL"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/GNL/Clion/libft/ft_strsub.c">
 			<Option target="GNL"/>
 		</Unit>
 		<Unit filename="/Users/pcorlys-/GNL/Clion/main.c">

@@ -6,7 +6,7 @@
 #    By: pcorlys- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/09 10:53:01 by pcorlys-          #+#    #+#              #
-#    Updated: 2019/01/09 09:24:36 by pcorlys-         ###   ########.fr        #
+#    Updated: 2019/01/12 12:53:43 by pcorlys-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,6 +71,7 @@ FILES= $(WAY)ft_atoi.c \
 	   $(WAY)ft_tolower.c \
 	   $(WAY)ft_toupper.c \
 	   $(WAY)ft_realloc.c \
+	   $(WAY)ft_strnjoin.c \
       
 FILES_O=ft_atoi.o \
 		ft_bzero.o \
@@ -131,6 +132,7 @@ FILES_O=ft_atoi.o \
 		ft_tolower.o \
 		ft_toupper.o \
 		ft_realloc.o \
+		ft_strnjoin.o \
 			
 
 HEAD= ./libft.h

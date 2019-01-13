@@ -6,31 +6,27 @@
 /*   By: pcorlys- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/17 08:47:38 by pcorlys-          #+#    #+#             */
-/*   Updated: 2019/01/01 23:26:01 by pcorlys-         ###   ########.fr       */
+/*   Updated: 2019/01/11 12:50:24 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char		*ft_strjoin(char const *s1, char const *s2, size_t num)
+char		*ft_strnjoin(char **s1, char *s2, size_t num)
 {
 	size_t	q;
-	size_t	r;
 	char	*res;
 
 	if (!s1 && !s2)
 		return (NULL);
-	q = 0;
-	r = 0;
-	while (s1[q])
-		q++;
-	while (r != num)
-		r++;
-	res = (char*)malloc(sizeof(res) * (q + r + 1));
+	q = ft_strlen(*s1);
+	res = ft_memalloc(q + num);
 	if (res == NULL)
 		return (NULL);
-	res[q + r + 1] = '\0';
-	res = ft_strcpy(res, s1);
-	res = ft_strcat(res, s2);
+	res[q + num] = '\0';
+	res = ft_strcpy(res, *s1);
+	res = ft_strncat(res, s2, num);
+	if (*s1)
+		ft_strdel(s1);
 	return (res);
 }
